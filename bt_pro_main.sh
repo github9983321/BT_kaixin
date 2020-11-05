@@ -90,13 +90,13 @@ install_python_for_CentOS7() {
 }
 
 install_btPanel_for_CentOS() {
-    yum install -y wget && wget -O install.sh https://git.io/fj0zQ && bash install.sh
-    wget -O update.sh https://git.io/fj0zD && bash update.sh pro
+    yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/github9983321/BT_kaixin/main/btPanel_for_CentOS_install.sh && bash install.sh
+    wget -O update.sh https://raw.githubusercontent.com/github9983321/BT_kaixin/main/btPanel_for_CentOS_update.sh && bash update.sh pro
 }
 
 install_btPanel_for_APT() {
-    wget -O install.sh https://git.io/fj0z5 && bash install.sh
-    wget -O update.sh https://git.io/fj0zD && bash update.sh pro
+    wget -O install.sh https://raw.githubusercontent.com/github9983321/BT_kaixin/main/btPanel_for_APT_install.sh && bash install.sh
+    wget -O update.sh https://raw.githubusercontent.com/github9983321/BT_kaixin/main/btPanel_for_APT_update.sh && bash update.sh pro
 }
 
 #破解步骤
